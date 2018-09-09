@@ -7,5 +7,6 @@ public class SampleTest {
     public void exampleTest() {
         System.out.println("exampleTest output");
         Assert.assertEquals(1, 1);
+        Assert.fail("force failure");
     }
 }
